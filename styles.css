@@ -1,0 +1,36 @@
+html {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+body {
+  max-width: 870px;
+  margin: 0 auto;
+}
+.work-title{
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  text-align: right;
+}
+#name {
+  text-align: center;
+}
+#contact {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#contact li {
+  margin-right: 1.5em;
+}
+#contact li:last-child {
+  margin-right: 0;
+}
+#contact li:first-child {
+  list-style-type: none;
+}
+
+#community li{
+  list-style: none;
+}
