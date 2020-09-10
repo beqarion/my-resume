@@ -36,6 +36,9 @@ body {
 }
 #contact li a {
   text-decoration: none;
+  color: blue;
+}
+#contact li a[href^="mailto"] {
   color: black;
 }
 #contact li:last-child {
@@ -47,6 +50,9 @@ body {
 
 #community li{
   list-style: none;
+}
+#community li a {
+  text-decoration: none;
 }
 .job-container {
   margin-bottom: 3em
