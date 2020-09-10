@@ -6,9 +6,9 @@ html {
   
 }
 body {
-  max-width: 800px;
+  max-width: 870px;
   margin: 0 auto;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 #name {
   font-family: 'Roboto Slab', serif;
