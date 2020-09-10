@@ -25,6 +25,7 @@ body {
   text-align: center;
 }
 #contact {
+  list-style-type: none;
   font-family: 'Roboto Mono', monospace;
   padding: 0;
   display: flex;
@@ -32,7 +33,10 @@ body {
   
 }
 #contact li {
-  margin-right: 1.6em;
+  margin-right:1em;
+}
+#contact i {
+  color: #333;
 }
 #contact li a {
   text-decoration: none;
