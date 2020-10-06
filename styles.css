@@ -40,7 +40,8 @@ body {
 }
 #contact li a {
   text-decoration: none;
-  color: blue;
+  color: #487eb0;
+  font-weight: bold;
 }
 #contact li a[href^="mailto"] {
   color: black;
@@ -52,12 +53,8 @@ body {
   list-style-type: none;
 }
 
-#community li{
-  list-style: none;
-}
-#community li a {
-  text-decoration: none;
-}
+
+
 .job-container {
   margin-bottom: 3em
 }
@@ -68,6 +65,28 @@ body {
   font-style: italic;
 }
 
-#info  span {
-  font-weight: 400;
+/*PROJECTS*/
+#projects dd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+#projects .job-container {
+  width: 200px;
+
+  margin: 2em;
+  margin-bottom: 0.5em;
+
+}
+#projects .job-container ul{
+  padding-left: 1em;
+  list-style-type: square;
+}
+#projects a:link,
+#projects a:visited,
+#projects a:hover,
+#projects a:active {
+  color: #487eb0;
+  text-decoration: none;
 }
