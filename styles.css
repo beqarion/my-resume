@@ -67,6 +67,7 @@ body {
 
 /*PROJECTS*/
 #projects dd {
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -74,8 +75,7 @@ body {
 }
 #projects .job-container {
   width: 200px;
-
-  margin: 2em;
+  margin: 1em;
   margin-bottom: 0.5em;
 
 }
