@@ -1,9 +1,8 @@
 html {
-  font-size:10px;
+  font-size: 10px;
   padding: 3em 4em;
   line-height: 1.6;
-  font-family: 'Roboto Mono', monospace;
-  
+  font-family: "Roboto Mono", monospace;
 }
 body {
   max-width: 870px;
@@ -11,9 +10,9 @@ body {
   font-size: 1.2rem;
 }
 #name {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
-.work-title{
+.work-title {
   display: flex;
   justify-content: space-between;
 }
@@ -26,14 +25,13 @@ body {
 }
 #contact {
   list-style-type: none;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 0;
   display: flex;
-  justify-content: center;
-  
+  justify-content: space-around;
 }
 #contact li {
-  margin-right:1em;
+  margin-right: 1em;
 }
 #contact i {
   color: #333;
@@ -53,15 +51,15 @@ body {
   list-style-type: none;
 }
 
-
-
 .job-container {
-  margin-bottom: 3em
+  margin-bottom: 3em;
 }
-.work-name, .work-location {
+.work-name,
+.work-location {
   font-weight: bold;
 }
-.job-title, .date {
+.job-title,
+.date {
   font-style: italic;
 }
 
@@ -71,15 +69,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 #projects .job-container {
   width: 200px;
   margin: 1em;
   margin-bottom: 0.5em;
-
 }
-#projects .job-container ul{
+#projects .job-container ul {
   padding-left: 1em;
   list-style-type: square;
 }
