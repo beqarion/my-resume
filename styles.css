@@ -54,6 +54,9 @@ body {
 /* small screen */
 #contact-small-screen {
   padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, auto));
 }
 #contact-small-screen li {
   white-space: nowrap;
@@ -62,6 +65,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
+
 #contact-small-screen a {
   color: inherit;
   display: flex;
@@ -74,36 +78,6 @@ body {
 }
 #contact-small-screen i {
   font-size: 2rem;
-}
-@media screen and (min-width: 600px) {
-  #contact-small-screen {
-    display: grid;
-    grid-template-areas:
-      "contact1 contact1 contact2 contact2 contact3 contact3"
-      "socials1 socials1 socials1 socials2 socials2 socials2";
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1rem;
-    
-  }
-  #contact-small-screen li:nth-child(3) {
-    grid-area: contact1;
-  }
-  #contact-small-screen li:nth-child(4) {
-    grid-area: contact2;
-    justify-self: center;
-  }
-  #contact-small-screen li:nth-child(5) {
-    grid-area: contact3;
-    justify-self: end;
-  }
-  #contact-small-screen li:nth-child(1) {
-    grid-area: socials1;
-    justify-self: end;
-  }
-  #contact-small-screen li:nth-child(2) {
-    grid-area: socials2;
-    justify-self: start;
-  }
 }
 @media screen and (min-width: 864px) {
   #contact-small-screen {
@@ -129,9 +103,10 @@ body {
 /*PROJECTS*/
 #projects dd {
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 1rem;
 }
 #projects .job-container {
   width: 200px;
