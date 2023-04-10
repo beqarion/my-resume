@@ -83,6 +83,7 @@ body {
       "socials1 socials1 socials1 socials2 socials2 socials2";
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
+    
   }
   #contact-small-screen li:nth-child(3) {
     grid-area: contact1;
