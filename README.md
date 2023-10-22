@@ -32,8 +32,8 @@ Thank you for visiting my resume website, and I look forward to connecting with 
 
 **Desktop View**
 
-![Desktop View](url_to_screenshot-desktop.png)
+![Desktop View](assets/images/screenshot-desktop.png)
 
 **Mobile View**
 
-![Mobile View](url_to_screenshot-mobile.png)
+![Mobile View](assets/images/screenshot-mobile.png)
