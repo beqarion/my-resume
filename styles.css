@@ -128,9 +128,14 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-left: 40px;
+  margin-left: 20px;
   /* justify-items: center; */
   gap: 1rem;
+}
+@media screen and (min-width: 500px) {
+  #projects dd {
+    margin-left: 40px;
+  }
 }
 #projects .project {
   width: 200px;
@@ -150,4 +155,12 @@ body {
 #projects a:active {
   color: #487eb0;
   text-decoration: none;
+}
+#work-experience dd {
+  margin-inline-start: 20px;
+}
+@media screen and (min-width: 500px) {
+  #work-experience dd {
+    margin-left: 40px;
+  }
 }
