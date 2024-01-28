@@ -7,394 +7,155 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>bekar shekiladze</title>
+    <!-- fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
+    <!-- favicon -->
     <link
       rel="icon"
       href="assets/images/favicon.png"
       type="image/png"
       sizes="32x32"
     />
+    <!-- page styles -->
     <link
       rel="stylesheet"
       href="styles.css"
     />
+    <title>Bekar Shekiladze</title>
   </head>
-
   <body>
-    <!-- title -->
-    <h1 id="name">Bekar Shekiladze</h1>
-    <!-- header big screen -->
-    <ul id="contact-big-screen">
-      <li>
-        <i class="fas fa-asterisk"></i> @beqa.rioni
-        <a
-          href="https://www.facebook.com/beqa.rioni/"
-          target="_blank"
-          >Facebook</a
-        >
-      </li>
-      <li>
-        <i class="fas fa-asterisk"></i> @bshekiladze
-        <a
-          href="https://www.linkedin.com/in/beqarion/"
-          target="_blank"
-          >LinkedIn</a
-        >
-      </li>
-      <li>
-        <i class="fas fa-asterisk"></i>
-        <a href="mailto:beqarioni@yahoo.co.uk">beqarioni@yahoo.co.uk</a>
-      </li>
-      <li>
-        <a href="tel:+995577208435"
-          ><i class="fas fa-asterisk"></i> +995 577 20 84 35</a
-        >
-      </li>
-      <li><i class="fas fa-asterisk"></i> GMT+4</li>
-    </ul>
-    <!-- header small screen -->
-    <ul id="contact-small-screen">
-      <li>
-        <i class="fa-solid fa-envelope"></i>
-        <a href="mailto:beqarioni@yahoo.co.uk">beqarioni@yahoo.co.uk</a>
-      </li>
-      <li>
-        <a href="tel:+995577208435"
-          ><i class="fa-solid fa-square-phone-flip"></i> +995 577 20 84 35</a
-        >
-      </li>
-      <li><i class="fa-solid fa-earth-europe"></i> GMT+4</li>
-      <li>
-        <a
-          href="https://www.facebook.com/beqa.rioni/"
-          target="_blank"
-        >
-          <i class="fab fa-square-facebook"></i>@beqa.rioni
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/bshekiladze/"
-          target="_blank"
-        >
-          <i class="fa-brands fa-linkedin"></i>@bshekiladze
-        </a>
-      </li>
-    </ul>
-    <hr />
+    <!-- Header -->
+    <header class="header">
+      <!-- title -->
+      <h1 class="title">Bekar Shekiladze</h1>
+      <!-- header big screen -->
+      <ul class="contact">
+        <li>
+          <img
+            src="./assets/images/asterisk.svg"
+            alt="asterisk icon"
+            class="asterisk"
+          />
+          @beqa.rioni
+          <a
+            href="https://www.facebook.com/beqa.rioni/"
+            target="_blank"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <img
+            src="./assets/images/asterisk.svg"
+            alt="asterisk icon"
+            class="asterisk"
+          />
+          @bshekiladze
+          <a
+            href="https://www.linkedin.com/in/beqarion/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <img
+            src="./assets/images/asterisk.svg"
+            alt="asterisk icon"
+            class="asterisk"
+          />
+          <a href="mailto:beqarioni@yahoo.co.uk">beqarioni@yahoo.co.uk</a>
+        </li>
+        <li>
+          <img
+            src="./assets/images/asterisk.svg"
+            alt="asterisk icon"
+            class="asterisk"
+          />
+          @beqarion
+          <a
+            href="https://github.com/beqarion"
+            target="_blank"
+            >Github</a
+          >
+        </li>
+        <li>
+          <img
+            src="./assets/images/asterisk.svg"
+            alt="asterisk icon"
+            class="asterisk"
+          />
+          GMT+4
+        </li>
+      </ul>
+    </header>
+    <!-- Projects -->
+    <section class="section projects">
+      <div class="section-center projects-center">
+        <h2 class="projects-title section-title">Projects</h2>
+        <div class="projects-wrapper">
+          <!-- project -->
 
-    <!-- PROJECTS -->
-    <dl id="projects">
-      <dt>
-        <h3>Projects</h3>
-      </dt>
-      <dd>
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://age-calculator-app-beqarion.netlify.app/"
-                  target="_blank"
-                >
-                  Age calculator app</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-          </div>
-          <ul>
-            <li><code>Tailwind, JS, Vite, AnimeJS</code></li>
-          </ul>
+          <!-- end of project -->
         </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://bmi-calculator-fm.netlify.app/"
-                  target="_blank"
-                >
-                  Body Mass Index Calculator</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-          </div>
-          <ul>
-            <li><code>Tailwind, JS, Vite, AnimeJS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://github-user-search-app-beqarion.netlify.app/"
-                  target="_blank"
-                >
-                  Github User search app</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-          </div>
-          <ul>
-            <li><code>Tailwind, Promises api, Vite, AnimeJS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://advice-generator-app-beqarion.netlify.app/"
-                  target="_blank"
-                >
-                  Advice generator app</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-          </div>
-          <ul>
-            <li><code>Tailwind, Promises api, Vite, AnimeJS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://beqarion.github.io/meet-landing-page/"
-                  target="_blank"
-                  >Meet landing page</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-            <!-- <div class="right">
-            <div class="work-location">BitCamp, CodeHS</div>
-          </div> -->
-          </div>
-          <ul>
-            <li><code>html, CSS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
+      </div>
+    </section>
+    <!-- work experience -->
+    <section class="section experience-section">
+      <div class="section-center experience-center">
+        <h2 class="experience-title section-title">experience</h2>
+        <div class="experience-wrapper">
+          <!-- one work -->
 
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://beqarion.github.io/RandomQuoteMachine/"
-                  target="_blank"
-                  >Random Quote Machine</a
+          <!-- end of one work -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education-section">
+      <div class="section-center education-center">
+        <h2 class="education-title section-title">education</h2>
+        <div class="education-wrapper">
+          <!-- single entry -->
+          <article class="edu">
+            <div class="edu-header">
+              <!-- work name -->
+              <div class="edu-name">
+                <h3 class="company edu-title">Georgian Technical University</h3>
+                <span class="position edu-subtitle"
+                  >Bachelor of Computer Networks and Systems</span
                 >
               </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-            <!-- <div class="right">
-            <div class="work-location">BitCamp, FreeCodeCamp</div>
-          </div> -->
-          </div>
-          <ul>
-            <li><code>JavaScript, HTML, Sassy CSS, jQuery</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://beqarion.github.io/workit-landing-page/"
-                  target="_blank"
-                  >Workit Landing Page</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-            <!-- <div class="right">
-            <div class="work-location">BitCamp, FreeCodeCamp</div>
-          </div> -->
-          </div>
-          <ul>
-            <li><code>HTML, CSS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-        <!-- project -->
-        <div class="project">
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://beqarion.github.io/equalizer-landing-page/"
-                  target="_blank"
-                  >Equalizer landing page</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-            <!-- <div class="right">
-            <div class="work-location">BitCamp, FreeCodeCamp</div>
-          </div> -->
-          </div>
-          <ul>
-            <li><code>HTML, CSS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-
-        <!-- project -->
-        <div class="project">
-          <!-- title -->
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">
-                <a
-                  href="https://beqarion.github.io/fm-jr-suite-landing-page/"
-                  target="_blank"
-                  >Suite Landing Page</a
-                >
-              </div>
-              <div class="job-title">used technologies:</div>
-            </div>
-          </div>
-          <ul>
-            <li><code>HTML, CSS</code></li>
-          </ul>
-        </div>
-        <!-- end of project -->
-      </dd>
-    </dl>
-
-    <hr />
-    <!-- WORK EXPERIENCE -->
-    <dl id="work-experience">
-      <dt>
-        <h3>Work Experience</h3>
-      </dt>
-      <dd>
-        <div class="job-container">
-          <!-- company_name+job_role+location+date -->
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">Caucasus Online</div>
-              <div class="job-title">Transmission Engineer</div>
-            </div>
-            <div class="right">
-              <div class="work-location">Georgia, Tbilisi</div>
-              <div class="date">May 2020 - Present</div>
-            </div>
-          </div>
-          <!-- achievements in this job role -->
-          <ul>
-            <li>
-              Monitoring, troubleshooting and maintaining Caucasus Online's
-              Optical Transmission system
-            </li>
-          </ul>
-        </div>
-        <!-- next job below here -->
-        <div class="job-container">
-          <!-- company_name+job_role+location+date -->
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">Caucasus Online</div>
-              <div class="job-title">Wireless Network Engineer</div>
-            </div>
-            <div class="right">
-              <div class="work-location">Georgia, Tbilisi</div>
-              <div class="date">September 2009 - May 2020</div>
-            </div>
-          </div>
-          <!-- achievements in this job role -->
-          <ul>
-            <li>
-              Participated in project "Georgian Government Network"(GGN), which
-              involved installing and maintaining big capacity microwave
-              magistral network done by Caucasus Online
-            </li>
-          </ul>
-        </div>
-        <!-- next job below here -->
-        <div class="job-container">
-          <!-- company_name+job_role+location+date -->
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">Telenet</div>
-              <div class="job-title">Radio Engineer</div>
-            </div>
-            <div class="right">
-              <div class="work-location">Georgia, Tbilisi</div>
-              <div class="date">August 2008 - September 2009</div>
-            </div>
-          </div>
-          <!-- achievements in this job role -->
-          <ul>
-            <li>
-              Participated in project "Irmis nakhtomi"(Milky Way), which
-              intended to connect every Georgian school to internet by
-              installing microwave customers premise equipment at their site,
-              done by LTD Telenet.
-            </li>
-          </ul>
-        </div>
-      </dd>
-    </dl>
-
-    <hr />
-
-    <!-- EDUCATION -->
-    <dl>
-      <dt>
-        <h3>Education</h3>
-      </dt>
-      <dd>
-        <div class="job-container">
-          <!-- company_name+job_role+location+date -->
-          <div class="work-title">
-            <div class="left">
-              <div class="work-name">Georgian Technical University</div>
-              <div class="job-title">
-                Bachelor of Computer Networks and Systems
+              <!-- location -->
+              <div class="edu-info">
+                <h3 class="location edu-title">georgia, tbilisi</h3>
+                <span class="period edu-subtitle">2002 - 2007 </span>
               </div>
             </div>
-            <div class="right">
-              <div class="work-location">Georgia, Tbilisi</div>
-              <div class="date">2002 - 2007</div>
-            </div>
-          </div>
+          </article>
+          <!-- end single entry -->
         </div>
-      </dd>
-    </dl>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="./script.js"
+    ></script>
   </body>
 </html>
