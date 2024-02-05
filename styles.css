@@ -3,7 +3,19 @@
 Fonts
 ===============
 */
+@font-face {
+  font-family: "Roboto Mono-fallback";
+  size-adjust: 115.25%;
+  ascent-override: 70%;
+  src: local("Arial");
+}
 
+@font-face {
+  font-family: "Roboto Slab-fallback";
+  size-adjust: 117.80000000000001%;
+  ascent-override: 87%;
+  src: local("Times New Roman");
+}
 /*
 ===============
 Variables
@@ -13,8 +25,8 @@ Variables
 :root {
   --clr-white: #fff;
   --clr-black: #222;
-  --ff-primary: "Roboto Slab", serif;
-  --ff-secondary: "Roboto Mono", monospace;
+  --ff-primary: "Roboto Slab", "Roboto Slab-fallback", serif;
+  --ff-secondary: "Roboto Mono", "Roboto Mono-fallback", Arial;
   --transition: all 0.3s linear;
   --max-width: 980px;
   --fixed-width: 620px;
